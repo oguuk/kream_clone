@@ -7,10 +7,10 @@
 
 import UIKit
 
-extension UITabBar {
-    override open func sizeThatFits(_ size: CGSize) -> CGSize {
-        var sizeThatFits = super.sizeThatFits(size)
-        sizeThatFits.height = 10
-        return sizeThatFits
-    }
+extension UICollectionViewDataSource {
+//    func castAs(collectionView:UICollectionView,identifier:String,indexpath:IndexPath,cast:UICollectionViewCell) -> UICollectionViewCell {
+//        guard let cell = collectionView.dequeueReusableCell(withReuseIdentifier: identifier, for: indexpath) as? cast else { return UICollectionViewCell()}
+//        
+//        return cell
+//    }
 }

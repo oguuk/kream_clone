@@ -7,24 +7,32 @@
 
 import UIKit
 
+private let bannerCollectionViewCell = "BannerCollectionViewCell"
+
 class CollectionViewTableViewCell: UITableViewCell {
     
     //MARK: -Properties
+    private var images:[UIImage?] = [UIImage]()
+    
     private let collectionView: UICollectionView = {
         let layout = UICollectionViewFlowLayout()
-        layout.itemSize = CGSize(width: 140, height: 200)
+        layout.itemSize = CGSize(width: 200, height: 400)
         layout.scrollDirection = .horizontal
         let collectionView = UICollectionView(frame: .zero, collectionViewLayout: layout)
-        collectionView.register(UICollectionViewCell.self, forCellWithReuseIdentifier: "cell")
+        collectionView.register(BannerCollectionViewCell.self, forCellWithReuseIdentifier: bannerCollectionViewCell)
         
         return collectionView
     }()
     
+//    private let imagesForSections = []
     //MARK: -Init
     override init(style: UITableViewCell.CellStyle, reuseIdentifier: String?) {
         super.init(style: style, reuseIdentifier: reuseIdentifier)
-        
-        UIConfigure()
+        contentView.addSubview(collectionView)
+
+        collectionView.delegate = self
+        collectionView.dataSource = self
+        collectionView.showsHorizontalScrollIndicator = false
     }
     
     required init?(coder: NSCoder) {
@@ -37,26 +45,23 @@ class CollectionViewTableViewCell: UITableViewCell {
     }
     
     //MARK: -Helpers
-    func UIConfigure() {
-        contentView.backgroundColor = .systemPink
-        contentView.addSubview(collectionView)
-        
-        collectionView.delegate = self
-        collectionView.dataSource = self
+    public func configure(with section:[UIImage?]) {
+        self.images = section
+        DispatchQueue.main.async { [weak self] in
+            self!.collectionView.reloadData()
+        }
     }
 }
 
-extension CollectionViewTableViewCell:UICollectionViewDelegate,UICollectionViewDataSource {
+extension CollectionViewTableViewCell:UICollectionViewDelegate,UICollectionViewDataSource,UICollectionViewDelegateFlowLayout {
     
     func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
-        let cell = collectionView.dequeueReusableCell(withReuseIdentifier: "cell", for: indexPath)
-        cell.backgroundColor = .green
+        guard let cell = collectionView.dequeueReusableCell(withReuseIdentifier: bannerCollectionViewCell, for: indexPath) as? BannerCollectionViewCell else { return UICollectionViewCell()}
+        cell.UIconfigure(with: (images[indexPath.row] ?? UIImage(named: "white"))!)
         return cell
     }
     
     func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
-        return 4
+        return images.count
     }
-    
-    
 }

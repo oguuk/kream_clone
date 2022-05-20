@@ -1,5 +1,5 @@
 //
-//  HomeHeaderUIView.swift
+//  BannerCollectionViewCell.swift
 //  KreamClone
 //
 //  Created by 오국원 on 2022/05/20.
@@ -7,24 +7,18 @@
 
 import UIKit
 
-class HomeHeaderUIView: UIView {
+class BannerCollectionViewCell: UICollectionViewCell {
     //MARK: -Properties
-    
-    private let homeImageView: UIImageView = {
+    private let bannerImage:UIImageView = {
         let imageView = UIImageView()
-        imageView.contentMode = .scaleAspectFill
-        imageView.clipsToBounds = true
-        let image = UIImage(named: "kream")?.withRenderingMode(.alwaysOriginal)
-        imageView.image = image
-
+        imageView.translatesAutoresizingMaskIntoConstraints = false
         return imageView
     }()
     
     //MARK: -Init
     override init(frame: CGRect) {
         super.init(frame: frame)
-        addSubview(homeImageView)
-        
+        contentView.addSubview(bannerImage)
     }
     
     required init?(coder: NSCoder) {
@@ -33,8 +27,13 @@ class HomeHeaderUIView: UIView {
     
     override func layoutSubviews() {
         super.layoutSubviews()
-        homeImageView.frame = bounds
+        bannerImage.frame = contentView.bounds
+        
     }
     
     //MARK: -Helpers
+    public func UIconfigure(with model: UIImage) {
+        bannerImage.image = model
+    }
+
 }
