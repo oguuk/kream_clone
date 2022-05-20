@@ -1,0 +1,469 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		96129581283775FE007AF6E3 /* MainTabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96129580283775FE007AF6E3 /* MainTabBarViewController.swift */; };
+		9612958528377710007AF6E3 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9612958428377710007AF6E3 /* HomeViewController.swift */; };
+		961295872837772F007AF6E3 /* StyleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 961295862837772F007AF6E3 /* StyleViewController.swift */; };
+		9612958928377768007AF6E3 /* ShopViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9612958828377768007AF6E3 /* ShopViewController.swift */; };
+		9612958B283777AF007AF6E3 /* WatchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9612958A283777AF007AF6E3 /* WatchViewController.swift */; };
+		9612958D283777C5007AF6E3 /* MyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9612958C283777C5007AF6E3 /* MyViewController.swift */; };
+		96129590283791B6007AF6E3 /* Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9612958F283791B6007AF6E3 /* Extension.swift */; };
+		961295962837989B007AF6E3 /* CollectionViewTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 961295952837989B007AF6E3 /* CollectionViewTableViewCell.swift */; };
+		9612959828379D39007AF6E3 /* HomeHeaderUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9612959728379D39007AF6E3 /* HomeHeaderUIView.swift */; };
+		96D798372832127500922D3E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96D798362832127500922D3E /* AppDelegate.swift */; };
+		96D798392832127500922D3E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96D798382832127500922D3E /* SceneDelegate.swift */; };
+		96D7983B2832127500922D3E /* aa.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96D7983A2832127500922D3E /* aa.swift */; };
+		96D7983E2832127500922D3E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 96D7983C2832127500922D3E /* Main.storyboard */; };
+		96D798402832127700922D3E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 96D7983F2832127700922D3E /* Assets.xcassets */; };
+		96D798432832127700922D3E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 96D798412832127700922D3E /* LaunchScreen.storyboard */; };
+		96D7984F2832347A00922D3E /* bb.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96D7984E2832347A00922D3E /* bb.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		96129580283775FE007AF6E3 /* MainTabBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabBarViewController.swift; sourceTree = "<group>"; };
+		9612958428377710007AF6E3 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		961295862837772F007AF6E3 /* StyleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StyleViewController.swift; sourceTree = "<group>"; };
+		9612958828377768007AF6E3 /* ShopViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShopViewController.swift; sourceTree = "<group>"; };
+		9612958A283777AF007AF6E3 /* WatchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WatchViewController.swift; sourceTree = "<group>"; };
+		9612958C283777C5007AF6E3 /* MyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyViewController.swift; sourceTree = "<group>"; };
+		9612958F283791B6007AF6E3 /* Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extension.swift; sourceTree = "<group>"; };
+		961295952837989B007AF6E3 /* CollectionViewTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewTableViewCell.swift; sourceTree = "<group>"; };
+		9612959728379D39007AF6E3 /* HomeHeaderUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeHeaderUIView.swift; sourceTree = "<group>"; };
+		96D798332832127500922D3E /* KreamClone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KreamClone.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		96D798362832127500922D3E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		96D798382832127500922D3E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		96D7983A2832127500922D3E /* aa.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = aa.swift; sourceTree = "<group>"; };
+		96D7983D2832127500922D3E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		96D7983F2832127700922D3E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		96D798422832127700922D3E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		96D798442832127700922D3E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		96D7984E2832347A00922D3E /* bb.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = bb.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		96D798302832127500922D3E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9612958E2837919E007AF6E3 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				9612958F283791B6007AF6E3 /* Extension.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		9612959128379810007AF6E3 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		961295922837981D007AF6E3 /* New Group */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "New Group";
+			sourceTree = "<group>";
+		};
+		961295932837982A007AF6E3 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		9612959428379834007AF6E3 /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Managers;
+			sourceTree = "<group>";
+		};
+		96D7982A2832127500922D3E = {
+			isa = PBXGroup;
+			children = (
+				96D798352832127500922D3E /* KreamClone */,
+				96D798342832127500922D3E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		96D798342832127500922D3E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				96D798332832127500922D3E /* KreamClone.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		96D798352832127500922D3E /* KreamClone */ = {
+			isa = PBXGroup;
+			children = (
+				9612959428379834007AF6E3 /* Managers */,
+				961295932837982A007AF6E3 /* Resources */,
+				961295922837981D007AF6E3 /* New Group */,
+				9612959128379810007AF6E3 /* ViewModels */,
+				9612958E2837919E007AF6E3 /* Utils */,
+				96D7984D2832346B00922D3E /* View */,
+				96D7984B2832129E00922D3E /* Controller */,
+				96D7984C283212B700922D3E /* Delegate */,
+				96D7983C2832127500922D3E /* Main.storyboard */,
+				96129580283775FE007AF6E3 /* MainTabBarViewController.swift */,
+				96D7983F2832127700922D3E /* Assets.xcassets */,
+				96D798412832127700922D3E /* LaunchScreen.storyboard */,
+				96D798442832127700922D3E /* Info.plist */,
+			);
+			path = KreamClone;
+			sourceTree = "<group>";
+		};
+		96D7984B2832129E00922D3E /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				96D7983A2832127500922D3E /* aa.swift */,
+				9612958428377710007AF6E3 /* HomeViewController.swift */,
+				961295862837772F007AF6E3 /* StyleViewController.swift */,
+				9612958828377768007AF6E3 /* ShopViewController.swift */,
+				9612958A283777AF007AF6E3 /* WatchViewController.swift */,
+				9612958C283777C5007AF6E3 /* MyViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		96D7984C283212B700922D3E /* Delegate */ = {
+			isa = PBXGroup;
+			children = (
+				96D798362832127500922D3E /* AppDelegate.swift */,
+				96D798382832127500922D3E /* SceneDelegate.swift */,
+			);
+			path = Delegate;
+			sourceTree = "<group>";
+		};
+		96D7984D2832346B00922D3E /* View */ = {
+			isa = PBXGroup;
+			children = (
+				96D7984E2832347A00922D3E /* bb.swift */,
+				961295952837989B007AF6E3 /* CollectionViewTableViewCell.swift */,
+				9612959728379D39007AF6E3 /* HomeHeaderUIView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		96D798322832127500922D3E /* KreamClone */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 96D798472832127700922D3E /* Build configuration list for PBXNativeTarget "KreamClone" */;
+			buildPhases = (
+				96D7982F2832127500922D3E /* Sources */,
+				96D798302832127500922D3E /* Frameworks */,
+				96D798312832127500922D3E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KreamClone;
+			productName = KreamClone;
+			productReference = 96D798332832127500922D3E /* KreamClone.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		96D7982B2832127500922D3E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1320;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					96D798322832127500922D3E = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+				};
+			};
+			buildConfigurationList = 96D7982E2832127500922D3E /* Build configuration list for PBXProject "KreamClone" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 96D7982A2832127500922D3E;
+			productRefGroup = 96D798342832127500922D3E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				96D798322832127500922D3E /* KreamClone */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		96D798312832127500922D3E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				96D798432832127700922D3E /* LaunchScreen.storyboard in Resources */,
+				96D798402832127700922D3E /* Assets.xcassets in Resources */,
+				96D7983E2832127500922D3E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		96D7982F2832127500922D3E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				96D7983B2832127500922D3E /* aa.swift in Sources */,
+				9612958B283777AF007AF6E3 /* WatchViewController.swift in Sources */,
+				961295962837989B007AF6E3 /* CollectionViewTableViewCell.swift in Sources */,
+				9612959828379D39007AF6E3 /* HomeHeaderUIView.swift in Sources */,
+				96D798372832127500922D3E /* AppDelegate.swift in Sources */,
+				9612958928377768007AF6E3 /* ShopViewController.swift in Sources */,
+				96129590283791B6007AF6E3 /* Extension.swift in Sources */,
+				96129581283775FE007AF6E3 /* MainTabBarViewController.swift in Sources */,
+				96D798392832127500922D3E /* SceneDelegate.swift in Sources */,
+				96D7984F2832347A00922D3E /* bb.swift in Sources */,
+				961295872837772F007AF6E3 /* StyleViewController.swift in Sources */,
+				9612958D283777C5007AF6E3 /* MyViewController.swift in Sources */,
+				9612958528377710007AF6E3 /* HomeViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		96D7983C2832127500922D3E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				96D7983D2832127500922D3E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		96D798412832127700922D3E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				96D798422832127700922D3E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		96D798452832127700922D3E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		96D798462832127700922D3E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		96D798482832127700922D3E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = M79928L8PF;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = KreamClone/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = oguuk.KreamClone;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		96D798492832127700922D3E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = M79928L8PF;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = KreamClone/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = oguuk.KreamClone;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		96D7982E2832127500922D3E /* Build configuration list for PBXProject "KreamClone" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				96D798452832127700922D3E /* Debug */,
+				96D798462832127700922D3E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		96D798472832127700922D3E /* Build configuration list for PBXNativeTarget "KreamClone" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				96D798482832127700922D3E /* Debug */,
+				96D798492832127700922D3E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 96D7982B2832127500922D3E /* Project object */;
+}
